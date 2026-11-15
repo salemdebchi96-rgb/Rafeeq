@@ -6,8 +6,8 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "rafeeq"
-database_id = "PUT-YOUR-D1-DATABASE-ID-HERE"
-
+# database_id = "PUT-YOUR-D1-DATABASE-ID-HERE"
+database_id = "0eda7dda-ba87-4357-99b7-2b76e348cf08"
 [vars]
 ANTHROPIC_MODEL = "claude-sonnet-5-5"
 FREE_MODEL = "claude-haiku-5-5"
