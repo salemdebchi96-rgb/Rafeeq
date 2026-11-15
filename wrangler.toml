@@ -1,0 +1,21 @@
+name = "rafeeq"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# ضع هنا معرّف قاعدة البيانات من Cloudflare (D1) بدل الكلمات الإنجليزية
+[[d1_databases]]
+binding = "DB"
+database_name = "rafeeq"
+database_id = "PUT-YOUR-D1-DATABASE-ID-HERE"
+
+[vars]
+ANTHROPIC_MODEL = "claude-sonnet-5-5"
+FREE_MODEL = "claude-haiku-5-5"
+FREE_DAILY_LIMIT = "20"
+PREMIUM_DAILY_CAP = "300"
+REQUIRE_VERIFIED = "true"
+ADMIN_EMAIL = "you@example.com"
+MAIL_FROM = "Rafeeq <onboarding@resend.dev>"
+LS_STORE_ID = ""
+LS_VARIANT_MONTHLY = ""
+LS_VARIANT_YEARLY = ""
